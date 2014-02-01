@@ -1,5 +1,78 @@
-// Load utility, base and components.
-@import "partials/utility";
-@import "partials/base";
-@import "partials/layout";
-@import "partials/components";
+// *************************************
+//
+// Application
+// -> MVCSS v3.0.2 (customized)
+//
+// *************************************
+
+// -------------------------------------
+// Libraries
+// -------------------------------------
+
+// ----- Compass ----- //
+
+@import "compass";
+
+// ----- Susy ----- //
+
+// @import "susy";
+
+// ----- Breakpoint ----- //
+
+@import "breakpoint";
+
+// ----- Sassy Buttons ----- //
+
+// @import "sassy-buttons";
+
+// -------------------------------------
+// Core
+// -------------------------------------
+
+// ----- Reset ----- //
+
+@import "core/reset";
+
+// ----- Settings ----- //
+
+@import "core/settings";
+
+// ----- Helpers ----- //
+
+@import "core/helpers";
+
+// ----- Base ----- //
+
+@import "core/base";
+
+// ----- Content ----- //
+
+@import "core/content";
+
+// ----- Layout ----- //
+
+@import "core/layout";
+
+// -------------------------------------
+// Modules
+// -------------------------------------
+
+@import "modules/header";
+@import "modules/navigation";
+@import "modules/forms";
+@import "modules/footer";
+
+// -------------------------------------
+//   Pages
+// -------------------------------------
+
+
+
+// -------------------------------------
+// Inbox
+// -------------------------------------
+
+// ----- DEVELOPMENT ONLY! ----- //
+
+
+// ----- //
